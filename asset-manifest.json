@@ -1,0 +1,28 @@
+{
+  "files": {
+    "static/js/0.a30577e2.chunk.js": "/hello-client/static/js/0.a30577e2.chunk.js",
+    "static/js/1.a7dda657.chunk.js": "/hello-client/static/js/1.a7dda657.chunk.js",
+    "static/js/2.8d9aa50a.chunk.js": "/hello-client/static/js/2.8d9aa50a.chunk.js",
+    "static/js/3.5a4514ce.chunk.js": "/hello-client/static/js/3.5a4514ce.chunk.js",
+    "main.js": "/hello-client/static/js/main.c34dfd68.chunk.js",
+    "runtime-main.js": "/hello-client/static/js/runtime-main.98b500b6.js",
+    "static/css/6.362bc188.chunk.css": "/hello-client/static/css/6.362bc188.chunk.css",
+    "static/js/6.d1ccada6.chunk.js": "/hello-client/static/js/6.d1ccada6.chunk.js",
+    "static/js/7.7832854c.chunk.js": "/hello-client/static/js/7.7832854c.chunk.js",
+    "static/js/8.f54a0566.chunk.js": "/hello-client/static/js/8.f54a0566.chunk.js",
+    "static/js/9.ccec46ea.chunk.js": "/hello-client/static/js/9.ccec46ea.chunk.js",
+    "static/js/10.3615d7e1.chunk.js": "/hello-client/static/js/10.3615d7e1.chunk.js",
+    "static/js/11.40a8295e.chunk.js": "/hello-client/static/js/11.40a8295e.chunk.js",
+    "static/js/12.7b4bcb4c.chunk.js": "/hello-client/static/js/12.7b4bcb4c.chunk.js",
+    "static/js/13.51e08715.chunk.js": "/hello-client/static/js/13.51e08715.chunk.js",
+    "index.html": "/hello-client/index.html",
+    "static/js/6.d1ccada6.chunk.js.LICENSE.txt": "/hello-client/static/js/6.d1ccada6.chunk.js.LICENSE.txt",
+    "static/media/top.fcb7460e.jpg": "/hello-client/static/media/top.fcb7460e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98b500b6.js",
+    "static/css/6.362bc188.chunk.css",
+    "static/js/6.d1ccada6.chunk.js",
+    "static/js/main.c34dfd68.chunk.js"
+  ]
+}
