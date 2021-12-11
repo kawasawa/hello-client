@@ -1,0 +1,79 @@
+{
+  "name": "hello-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.*",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@hookform/resolvers": "^2.8.3",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "^5.1.0",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/axios": "^0.14.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.19",
+    "@types/react-router-dom": "^5.3.1",
+    "@types/yup": "^0.29.13",
+    "axios": "^0.21.4",
+    "date-fns": "^2.24.0",
+    "i18next": "^21.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.19.3",
+    "react-i18next": "^11.12.0",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^8.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "7.*",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp -f build/index.html build/404.html",
+    "build:win": "react-scripts build && copy /y build\\index.html build\\404.html",
+    "test": "react-scripts test",
+    "test:cov": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint . --ext js,jsx,ts,tsx --max-warnings 0",
+    "deploy:local": "yarn build:win && gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://kawasawa.github.io/hello-client"
+}

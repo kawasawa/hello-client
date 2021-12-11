@@ -1,0 +1,10 @@
+.git/
+.github/
+.vscode/
+build/
+coverage/
+public/
+coverage/
+**/node_modules/
+**/*.test.ts
+**/*.test.tsx
