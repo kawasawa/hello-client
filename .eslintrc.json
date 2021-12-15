@@ -30,6 +30,8 @@
     "prettier"
   ],
   "rules": {
+    // 循環的複雑度
+    "complexity": ["error", 10],
     // import のソート
     "simple-import-sort/imports": "error",
     // export のソート
